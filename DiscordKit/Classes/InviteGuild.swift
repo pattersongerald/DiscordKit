@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+
+class InviteGuild {
+    var id: String?
+    var name: String?
+    var splash_hash: String?
+}

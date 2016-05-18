@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+
+
+class IntegrationAccount {
+    var id: String?
+    var name: String?
+}

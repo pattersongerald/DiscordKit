@@ -12,9 +12,9 @@ import Foundation
 class Attachment {
     var id: String?
     var filename: String?
-    var size: Int64?
+    var size: Int?
     var url: String?
     var proxy_url: String?
-    var height: Int32?
-    var width: Int32?
+    var height: Int?
+    var width: Int?
 }

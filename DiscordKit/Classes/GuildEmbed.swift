@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+
+
+class GuildEmbed {
+    var enabled: Bool?
+    var channel_id: String?
+}

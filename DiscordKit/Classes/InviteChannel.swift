@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+
+class InviteChannel {
+    var id: String?
+    var name: String?
+    var type: String?
+}

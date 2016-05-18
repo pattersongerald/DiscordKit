@@ -15,7 +15,7 @@ class Role {
     var color:Int32?
     var hoist:Bool?
     var position:Int32?
-    var permissions:Int64?
+    var permissions: Permissions?
     var managed:Bool?
     var mentionable:Bool?
 }

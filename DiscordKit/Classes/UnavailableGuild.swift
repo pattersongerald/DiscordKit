@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+
+class UnavailableGuild {
+    var id: String?
+    var unavailable: Bool?
+}
