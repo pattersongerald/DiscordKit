@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+
+class EmbedThumbnail {
+    var url: String?
+    var proxy_url: String?
+    var height: Int32?
+    var width: Int32?
+}

@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+
+class Overwrite {
+    var id: String?
+    var type: String?
+    var allow: Int64?
+    var deny: Int64?
+}

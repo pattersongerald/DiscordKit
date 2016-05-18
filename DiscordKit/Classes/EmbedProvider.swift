@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+class EmbedProvider {
+    var name: String?
+    var url: String?
+}

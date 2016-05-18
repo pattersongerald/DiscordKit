@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+
+class Embed {
+    var title: String?
+    var type: String?
+    var description: String?
+    var url: String?
+    var thumbnail: EmbedThumbnail?
+    var provider: EmbedProvider?
+}

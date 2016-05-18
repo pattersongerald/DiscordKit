@@ -14,16 +14,16 @@ enum GuildChannelType: String {
 }
 
 class GuildChannel {
-    var identifier: String = ""
-    var guildIdentifier: String = ""
-    var name: String = ""
-    var type: String = ""
-    var position: ChannelType = .Text
-    var isPrivate: Bool = false
-//    var permissionOverwrites: Array
-    var topic: String = ""
-    var lastMessageIdentifier: String = ""
-    var bitrate: Int = 0
+    var identifier: String?
+    var guildIdentifier: String?
+    var name: String?
+    var type: String?
+    var position: GuildChannelType = .Text
+    var isPrivate: Bool?
+    var permissionOverwrites: Array<Overwrite>?
+    var topic: String?
+    var lastMessageIdentifier: String?
+    var bitrate: Int?
 }
 
 

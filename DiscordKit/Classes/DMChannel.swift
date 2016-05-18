@@ -9,9 +9,9 @@
 import Foundation
 
 class DMChannel {
-    var identifier: String = ""
-    var isPrivate: Bool = false
-//    var recipient
-    var lastMessageIdentifier: String = ""
+    var identifier: String?
+    var isPrivate: Bool?
+    var recipient: User?
+    var lastMessageIdentifier: String?
     
 }

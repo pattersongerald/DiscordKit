@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+
+class User {
+    var id: String?
+    var username: String?
+    var discriminator: String?
+    var avatar: String?
+    var verified: Bool?
+    var email: String?
+}
