@@ -2,9 +2,6 @@
 # Be sure to run `pod lib lint DiscordKit.podspec' to ensure this is a
 # valid spec before submitting.
 #
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = "DiscordKit"
@@ -21,22 +18,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DiscordKit"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/pattersongerald/DiscordKit"
   s.license          = 'MIT'
   s.author           = { "Gerald Patterson" => "gerald@gerald.im" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DiscordKit.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/pattersongerald/DiscordKit.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DiscordKit/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'DiscordKit' => ['DiscordKit/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire', '~> 3.4.0'
+  s.dependency 'ObjectMapper', '~> 1.3.0'
 end
