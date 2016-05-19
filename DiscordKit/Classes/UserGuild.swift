@@ -14,5 +14,5 @@ class UserGuild {
     var name: String?
     var icon: String?
     var owner: Bool?
-    var permissions: Permissions?
+    var permissions: Permission?
 }

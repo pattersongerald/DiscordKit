@@ -9,8 +9,6 @@
 import Foundation
 
 
-
-
 enum ResponseCodes: Int16 {
     case OK = 200
     case CREATED = 201

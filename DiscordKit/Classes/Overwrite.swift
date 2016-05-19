@@ -12,6 +12,6 @@ import Foundation
 class Overwrite {
     var id: String?
     var type: String?
-    var allow: Permissions?
-    var deny: Permissions?
+    var allow: Permission?
+    var deny: Permission?
 }

@@ -1,5 +1,5 @@
 //
-//  Permissions.swift
+//  Permission.swift
 //  Pods
 //
 //  Created by Mike Littman on 5/18/16.
@@ -9,7 +9,7 @@
 import Foundation
 
 
-enum Permissions: Int64 {
+enum Permission: Int64 {
     case CREATE_INSTANT_INVITE = 0x00000001 //	Allows creation of instant invites
     case KICK_MEMBERS = 0x00000002 //	Allows kicking members
     case BAN_MEMBERS = 0x00000004 //	Allows banning members
